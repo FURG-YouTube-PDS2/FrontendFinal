@@ -1,0 +1,335 @@
+// Here you can add other styles
+// .c-header {
+//   background-color: grey;
+// }
+label {
+  color: white;
+}
+.c-app {
+  background-color: #181818;
+}
+.c-sidebar {
+  background-color: #212121;
+}
+.c-sidebar-brand {
+  margin-bottom: 1%;
+}
+
+.c-sidebar-nav {
+  // background-color: #212121;
+  // border-top: 1px white solid;
+  border-right: 1px white solid;
+}
+
+a:hover,
+a:visited,
+a:after,
+a:active {
+  color: white;
+}
+
+.c-sidebar .c-sidebar-nav-link,
+.c-sidebar .c-sidebar-nav-dropdown-toggle {
+  color: white;
+  border-radius: 25px;
+}
+
+.c-sidebar-minimizer {
+  border-top: 1px white solid;
+  border-right: 1px white solid;
+}
+
+.c-sidebar .c-sidebar-nav-link.c-active,
+.c-sidebar .c-active.c-sidebar-nav-dropdown-toggle {
+  border-bottom: 1px solid #f1343b;
+  border-top: 1px solid #f1343b;
+  border-radius: 25px;
+  color: white;
+  background-color: black;
+}
+
+.c-sidebar .c-sidebar-nav-link:hover,
+.c-sidebar .c-sidebar-nav-dropdown-toggle:hover {
+  color: white;
+  background-color: grey;
+  border-radius: 25px;
+}
+
+.white-mode {
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  min-height: 65px;
+}
+
+.dark-mode {
+  background-color: #212121;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  min-height: 65px;
+}
+
+.dark-mode,
+a {
+  color: white;
+}
+
+.c-sidebar.c-sidebar-minimized .c-sidebar-nav-item:hover > .c-sidebar-nav-link,
+.c-sidebar.c-sidebar-minimized
+  .c-sidebar-nav-item:hover
+  > .c-sidebar-nav-dropdown-toggle {
+  background-color: grey;
+}
+
+.c-header-nav-link {
+  border-bottom: 1px solid #f1343b;
+  border-top: 1px solid #f1343b;
+  border-radius: 25px;
+}
+
+.c-header-toggle {
+  color: white;
+}
+
+h4,
+h1 {
+  color: red;
+}
+
+.rangePlayer {
+  /*Chrome*/
+  @media screen and (-webkit-min-device-pixel-ratio: 0) {
+    input[type="range"] {
+      overflow: hidden;
+      -webkit-appearance: none;
+      background-color: #9a905d;
+    }
+    input[type="range"]::-webkit-slider-runnable-track {
+      height: 10px;
+      -webkit-appearance: none;
+      color: #13bba4;
+      margin-top: -1px;
+    }
+    input[type="range"]::-webkit-slider-thumb {
+      width: 10px;
+      -webkit-appearance: none;
+      height: 10px;
+      cursor: ew-resize;
+      background: #434343;
+      color: #43e5f7;
+    }
+  }
+
+  /** FF*/
+
+  input[type="range"]::-moz-range-progress {
+    background-color: #43e5f7;
+  }
+
+  input[type="range"]::-moz-range-track {
+    background-color: #9a905d;
+  }
+
+  /* IE*/
+
+  input[type="range"]::-ms-fill-lower {
+    background-color: #43e5f7;
+  }
+
+  input[type="range"]::-ms-fill-upper {
+    background-color: #9a905d;
+  }
+}
+
+.centerTd {
+  vertical-align: center;
+  text-align: center;
+}
+
+input[type="file"] {
+  display: none;
+}
+.fileThumb {
+  background-color: #3498db;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  // margin-top: 10px;
+  // margin-bottom: 10px;
+  padding: 6px 20px;
+}
+
+.myBut {
+  box-shadow: inset 3px -1px 0px 0px #ffffff;
+  background: linear-gradient(to bottom, #ededed 15%, #dfdfdf 100%);
+  background-color: #ededed;
+  border-radius: 6px;
+  border: 1px solid #212121cb;
+  display: inline-block;
+  cursor: pointer;
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 7px 20px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffffff;
+}
+.myBut:hover {
+  background: linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+  background-color: #dfdfdf;
+}
+.myBut:active {
+  position: relative;
+  top: 1px;
+}
+
+.myCancel {
+  // box-shadow: inset 3px -1px 0px 0px #ffffff;
+  // background: linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+  // background-color: #212121;
+  border-radius: 6px;
+  display: inline-block;
+  cursor: pointer;
+  font-family: Arial;
+  // color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 7px 20px;
+  text-decoration: none;
+  // text-shadow: 0px 1px 0px #ffffff;
+}
+.myCancel:hover {
+  border: 1px solid white;
+  // background-color: #dfdfdf;
+}
+.myCancel:active {
+  position: relative;
+  top: 1px;
+}
+
+.showReport {
+  display: none;
+}
+
+.showDiv:hover .showReport {
+  display: block;
+  // color: white;
+}
+
+.showReport:hover {
+  color: red;
+}
+
+.showReportSec {
+  display: none;
+}
+
+.showDivSec:hover .showReportSec {
+  display: block;
+  // color: white;
+}
+
+.showReportSec:hover {
+  color: red;
+}
+.showAnswers {
+  background: transparent;
+  border: none;
+  color: white;
+}
+
+.showAnswers:hover {
+  color: red;
+}
+
+.player-wrapper {
+  position: relative;
+  padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.divVideo {
+  /* width: fit-content;
+  height: fit-content; */
+  margin-left: 3%;
+  background-color: white;
+}
+
+progress::-moz-progress-bar {
+  border-radius: 12px;
+  background: red;
+}
+
+.dropdown-header {
+  background-color: rgb(14, 14, 14);
+}
+
+.dropdown-menu {
+  background-color: #212121;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+  background-color: #5b5d5f;
+  color: white;
+}
+
+.form-control {
+  resize: none;
+}
+
+.channel_button {
+  border: 1px solid;
+  width: 100%;
+  height: 100%;
+  outline: none;
+}
+
+.channel_button:hover,
+.channel_button:focus {
+  background-color: #666;
+  color: white;
+  border: 1px solid red;
+  outline: none;
+}
+
+.ChannelPlaylist:hover {
+  font-weight: bold;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  background-color: red;
+  border: 4px solid transparent;
+  border-radius: 8px;
+  background-clip: padding-box;
+}
+
+.scroll::-webkit-scrollbar {
+  width: 16px;
+}
+
+.outline:focus,
+.outline:active {
+  outline: none;
+  border: none;
+}

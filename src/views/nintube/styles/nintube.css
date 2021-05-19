@@ -1,0 +1,87 @@
+/* COREUI TAGS */
+/* .c-sidebar {
+  background-color: rgb(26, 25, 25); 
+  background-color: #ffffff; 
+} */
+
+/* .c-header {
+  background-color: rgb(26, 25, 25);
+}*/
+
+.c-body {
+  width: 100%;
+}
+
+.c-main {
+  width: 100%;
+}
+
+.container-fluid {
+  width: 100%;
+}
+
+/* TAGS */
+button:focus {
+  outline: 0;
+}
+
+/* CLASS */
+.inscribe {
+  background-color: #c00;
+  color: #fff;
+}
+.registered {
+  /* background-color: #b4b4b4be; */
+  color: #606060;
+}
+
+/* IDS */
+#inscribe {
+  border-radius: 8px;
+  padding: 10px 16px;
+  margin: auto 4px;
+  white-space: nowrap;
+  font-size: 15px;
+  font-weight: 200;
+  letter-spacing: 0.007px;
+  text-transform: uppercase;
+  border: none;
+}
+
+#inscribe-search {
+  
+  border-radius: 8px;
+  padding: 5px 5px;
+  margin: auto 4px;
+  white-space: nowrap;
+  font-size: 13px;
+  font-weight: 200;
+  letter-spacing: 0.007px;
+  text-transform: uppercase;
+  border: none;
+}
+
+/* #f1343b */
+/* #B3272C */
+/* #FFFFFF */
+/* #000000 */
+
+#white-mode {
+  background-color: white;
+  color: black;
+}
+
+#dark-mode {
+  color: #b3272c;
+  background-color: black;
+}
+
+a:after :visited :hover {
+}
+
+/* .divVideo {
+  width: fit-content;
+  height: fit-content;
+  margin-left: 3%;
+  background-color: white;
+} */
